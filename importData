@@ -67,13 +67,4 @@ run;
 proc print data=mydata.uniqlo;
 run;
 
-/* Handling missing values */
-data mydata.handled_uniqlo;
-    set mydata.uniqlo;
-    /* Drop records with any missing values; Keep records with no missing values only*/
-    if not missing(Gender) and not missing(Age) and not missing(Income_RM) and not missing(Location) and not
-       missing(q1) and not missing(q2) and not missing(q3) and not missing(q4) and not missing(q5) and not
-       missing(q6) and not missing(q7) and not missing(q8) and not missing(q9) and not missing(q10) and not missing(q11);
-
-run;
 
