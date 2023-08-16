@@ -1,0 +1,79 @@
+libname mydata "/home/u63487255";
+
+# Tan Ru Poh
+data mydata.uniqlo; 
+	length 
+	Gender $2
+	Age $6
+	Income_RM $11
+	Location $15
+	q1 $5
+	q2 $10
+	q3 $2
+	q4 
+	q5 $16
+	q6 $18
+	q7 $19
+	q8 $21
+	q9 $18
+	q10 $18
+	q11 $13
+	;
+	input Gender $ Age $ Income_RM $ Location $ q1 $ q2 $ q3 $ q4 q5 $ q6 $ q7 $ q8 $ q9 $ q10 $ q11 $;
+	datalines;
+	M 15-20 <2000 Selangand not <5 <30min P 4 Jackets Reasonable_Price E-Wallet Offline_Retail_Stand note Advertisement All Students
+	F 21-25 <2000 Kuala_Lumpur <5 <30min P 3 Bags Reasonable_Price Credit/Debit_Card Offline_Retail_Stand note Family_and not_Friends Social_media Unemployment
+	M 26-30 2001-4000 Selangand not <5 <30min Y 4 Clothes/T-Shirt Reasonable_Price Cash Offline_Retail_Stand note Family_and not_Friends Family_and not_Friends Employees
+	M 21-25 <2000 Kuala_Lumpur <5 <30min P 4 Clothes/T-Shirt Fit_and_sizing Cash Offline_Retail_Stand note Family_and not_Friends Social_media Students
+	F 26-30 4001-6000 Kuala_Lumpur <5 <30min Y 4 Jackets Durable_quality Credit/Debit_Card Offline_Retail_Stand note All All Employees
+	F 15-20 2001-4000 Kedah <5 in_1_hour Y 4 Clothes/T-Shirt Good_Design Cash Offline_Retail_Stand note Advertisement Advertisement Students
+	F 15-20 <2000 Kuala_Lumpur 6-10 <30min P 4 Clothes/T-Shirt Reasonable_Price Credit/Debit_Card Offline_Retail_Stand note All All Students
+	M 21-25 <2000 Kuala_Lumpur <5 <30min Y 5 Clothes/T-Shirt Durable_quality Credit/Debit_Card Offline_Retail_Stand note All Email_subscription Students
+	F 15-20 <2000 Kuala_Lumpur <5 in_1_hour P 4 Clothes/T-Shirt Durable_quality Credit/Debit_Card Offline_Retail_Stand note Family_and not_Friends Social_media Students
+	M 15-20 <2000 Selangand not <5 in_1_hour Y 4 Clothes/T-Shirt Durable_quality Credit/Debit_Card Offline_Retail_Stand note Family_and not_Friends Social_media Students
+	M 21-25 <2000 Kuala_Lumpur <5 in_1_hour P 4 Clothes/T-Shirt Durable_quality Credit/Debit_Card Both All Advertisement Students
+	M 15-20 <2000 Kedah <5 in_1_hour Y 5 Clothes/T-Shirt Durable_quality E-Wallet Offline_Retail_Stand note Family_and not_Friends Social_media Students								
+	F 15-20 <2000 Selangand not <5 in_1_hour P 4 Clothes/T-Shirt Durable_quality Credit/Debit_Card Both All Advertisement Students								
+	F 21-25 4001-6000 Kuala_Lumpur <5 in_1_hour Y 4 Clothes/T-Shirt Reasonable_Price Credit/Debit_Card Offline_Retail_Stand note Social_media Social_media Employees								
+	F 21-25 2001-4000 Selangand not <5 <30min P 4 Inner-wear Good_Design E-Wallet Both Family_and not_Friends Advertisement Employees								
+	F 15-20 2001-4000 Selangand not <5 <30min Y 4 Clothes/T-Shirt Durable_quality Credit/Debit_Card Offline_Retail_Stand note All Social_media Employees								
+	M 15-20 <2000 Selangand not <5 in_1_hour Y 4 Clothes/T-Shirt Good_Design E-Wallet Offline_Retail_Stand note All Family_and not_Friends Students								
+	F 21-25 <2000 Selangand not <5 <30min P 3 Clothes/T-Shirt Durable_quality Credit/Debit_Card Offline_Retail_Stand note Family_and not_Friends Social_media Students								
+	M 21-25 <2000 Selangand not 6-10 in_1_hour Y 4 Clothes/T-Shirt Durable_quality Cash Offline_Retail_Stand note All Social_media Students
+	F 15-20 <2000 Selangand not <5 in_1_hour Y 4 Clothes/T-Shirt Durable_quality Credit/Debit_Card Offline_Retail_Stand note Family_and not_Friends Family_and not_Friends Students								
+	M 15-20 <2000 Selangand not <5 <30min P 3 Clothes/T-Shirt Reasonable_Price Credit/Debit_Card Offline_Retail_Stand note All All Students								
+	F 15-20 <2000 Selangand not 6-10 in_1_hour Y 5 Clothes/T-Shirt Durable_quality Credit/Debit_Card Offline_Retail_Stand note All Social_media Students								
+	F 15-20 <2000 Sarawak 6-10 in_1_hour Y 4 Clothes/T-Shirt Durable_quality Credit/Debit_Card Offline_Retail_Stand note All Advertisement Students								
+	F 15-20 <2000 Selangand not <5 in_1_hour Y 5 Clothes/T-Shirt Durable_quality Credit/Debit_Card Offline_Retail_Stand note Family_and not_Friends Family_and not_Friends Students								
+	F 15-20 <2000 Selangand not <5 1-2_hours P 4 Clothes/T-Shirt Durable_quality E-Wallet Both Social_media Social_media Students								
+	F 21-25 <2000 Penang 6-10 in_1_hour P 3 Skirts/Dress Durable_quality Credit/Debit_Card Offline_Retail_Stand note Advertisement All Students								
+	F 26-30 4001-6000 Kuala_Lumpur 6-10 in_1_hour Y 5 Skirts/Dress Durable_quality Credit/Debit_Card Offline_Retail_Stand note Family_and not_Friends Family_and not_Friends Employees								
+	F 26-30 4001-6000 Kuala_Lumpur 11-15 in_1_hour Y 5 Inner-wear Durable_quality Credit/Debit_Card Offline_Retail_Stand note Advertisement Email_subscription Employees								
+	F 26-30 6001-8000 Kuala_Lumpur 6-10 1-2_hours Y 5 Jackets Fit_and_sizing Credit/Debit_Card Offline_Retail_Stand note Advertisement Social_media Employees								
+	F 31-40 6001-8000 Kuala_Lumpur 6-10 in_1_hour N 1 Jeans Reasonable_Price Credit/Debit_Card Offline_Retail_Stand note All All Employees								
+	F 41-50 8001-10000 Terengganu 11-15 <30min N 1 Bags Reasonable_Price Credit/Debit_Card Offline_Retail_Stand note All All Employees								
+	F 41-50 >10000 Penang <5 <30min P 2 Clothes/T-Shirt Reasonable_Price Credit/Debit_Card Offline_Retail_Stand note Social_media Email_subscription Employer								
+	F 26-30 >10000 Selangand not 6-10 in_1_hour P 2 Clothes/T-Shirt Reasonable_Price Credit/Debit_Card Offline_Retail_Stand note Social_media Email_subscription Employer								
+	M 41-50 4001-6000 Perlis 6-10 1-2_hours Y 4 Clothes/T-Shirt Fit_and_sizing Credit/Debit_Card Offline_Retail_Stand note All All Employer								
+	M 26-30 4001-6000 Pahang <5 in_1_hour Y 5 Clothes/T-Shirt Reasonable_Price E-Wallet Offline_Retail_Stand note Social_media Email_subscription Employees								
+	F 26-30 4001-6000 Kedah 6-10 <30min P 5 Clothes/T-Shirt Durable_quality Cash Offline_Retail_Stand note Family_and not_Friends Advertisement Employees								
+	F 21-25 2001-4000 Malacca 6-10 in_1_hour P 3 Clothes/T-Shirt Durable_quality Credit/Debit_Card Offline_Retail_Stand note All Advertisement Employees								
+	F 21-25 2001-4000 . 11-15 <30min Y 3 Clothes/T-Shirt Reasonable_Price E-Wallet Offline_Retail_Stand note All Social_media . 									
+	M 21-25 <2000 Negeri_Sembilan >15 <30min Y 3 Inner-wear Fit_and_sizing E-Wallet Offline_Retail_Stand note Social_media Email_subscription Students								
+	F 21-25 2001-4000 . >15 >2_hours N 5 Jackets Reasonable_Price Credit/Debit_Card Both All All Employees								
+	;
+run;
+
+proc print data=mydata.uniqlo;
+run;
+
+/* Handling missing values */
+data mydata.handled_uniqlo;
+    set mydata.uniqlo;
+    /* Drop records with any missing values; Keep records with no missing values only*/
+    if not missing(Gender) and not missing(Age) and not missing(Income_RM) and not missing(Location) and not
+       missing(q1) and not missing(q2) and not missing(q3) and not missing(q4) and not missing(q5) and not
+       missing(q6) and not missing(q7) and not missing(q8) and not missing(q9) and not missing(q10) and not missing(q11);
+
+run;
+
