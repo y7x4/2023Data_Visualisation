@@ -1,1 +1,58 @@
+libname mydata "/home/u63501710/Assignment";
 
+data mydata.uniqlo; 
+	length 
+	Gender $2
+	Age $6
+	Income_RM $11
+	Location $15
+	q1 $5
+	q2 $10
+	q3 $2
+	q4 
+	q5 $16
+	q6 $18
+	q7 $19
+	q8 $21
+	q9 $18
+	q10 $18
+	q11 $13
+	;
+	input Gender $ Age $ Income_RM $ Location $ q1 $ q2 $ q3 $ q4 q5 $ q6 $ q7 $ q8 $ q9 $ q10 $ q11 $;
+	datalines;
+	F 21-25 <2000 Kuala_Lumpur 6-10 <30 P 3 Clothes/T-Shirt Durable_Quality E-Wallet Offiline_Retail_Store Social_Media Social_Media Students
+	F 15-20 <2000 Selangor <5 <30 P 3 Clothes/T-Shirt Fit_and_sizing E-Wallet Offiline_Retail_Store All All Students
+	F 21-25 <2000 Kuala_Lumpur <5 <30 P 3 Clothes/T-Shirt Good_Design E-Wallet Offiline_Retail_Store All All Students
+	F 15-20 <2000 Selangor <5 <30 P 3 Jackets Durable_Quality E-Wallet Offiline_Retail_Store Social_Media Social_Media Students
+	F 15-20 <2000 Selangor <5 <30 P 3 Clothes/T-Shirt Reasonable_Price E-Wallet Offiline_Retail_Store Social_Media Social_Media Students
+	F 15-20 <2000 Kuala_Lumpur <5 <30 P 4 Clothes/T-Shirt Fit_and_Sizing E-Wallet Offiline_Retail_Store Social_Media Social_Media Students
+	F 21-25 <2000 Sabah <5 in_1_hour P 4 Clothes/T-Shirt Fit_and_Sizing E-Wallet Offiline_Retail_Store Social_Media Social_Media Students
+	F 26-30 2001-4000 Selangor 11-15 >2_hours P 3 Clothes/T-Shirt Durable_Quality E-Wallet Offiline_Retail_Store Social_Media Social_Media Employees
+	F 21-25 2001-4000 Kuala_Lumpur 6-10 <30min P 3 Jackets Good_Design E-Wallet Offiline_Retail_Store Social_Media Email_Subcription Students
+	F 21-25 <2000 Kuala_Lumpur <5 in_1_hour P 3 Clothes/T-Shirt Durable_Quality E-Wallet Offiline_Retail_Store Social_Media Social_Media Students
+	F 21-25 2001-4000 Kuala_Lumpur 6-10 <30min P 3 Clothes/T-Shirt Durable_Quality E-Wallet Offiline_Retail_Store Advertisement Social_Media Students
+	F 21-25 2001-4000 Kelantan <5 <30min P 3 Clothes/T-Shirt Durable_Quality Cash Offiline_Retail_Store Social_Media Social_Media Employees
+	F 15-20 <2000 Kuala_Lumpur <5 in_1_hour P 3 Clothes/T-Shirt Durable_Quality E-Wallet Offiline_Retail_Store Social_Media Social_Media Students
+	F 26-30 4001-6000 Kuala_Lumpur 6-10 <30min P 3 Clothes/T-Shirt Good_Design Credit/Debit_Card Offiline_Retail_Store Advertisement Social_Media Employees
+	F 26-30 4001-6000 Selangor 6-10 <30min P 3 Clothes/T-Shirt Durable_Quality Credit/Debit_Card Offiline_Retail_Store Social_Media Social_Media Employees
+	F 21-25 <2000 Kuala_Lumpur <5 <30min P 3 Clothes/T-Shirt Durable_Quality Credit/Debit_Card Offiline_Retail_Store Social_Media Social_Media Students
+	F 21-25 <2000 Selangor <5 in_1_hour P 4 Clothes/T-Shirt Good_Design Credit/Debit_Card Offiline_Retail_Store Social_Media Email_Subcription Students
+	M 31-40 4001-6000 Selangor <5 <30min P 1 Clothes/T-Shirt Fit_and_Sizing Credit/Debit_Card Offiline_Retail_Store Family_Or_Friends Family_Or_Friends Employees 
+	M 41-50 4001-6000 Selangor <5 <30min P 1 Skirts/Dress Good_Design Credit/Debit_Card Offiline_Retail_Store Social_Media Advertisement Employees
+	M 41-50 >10000 Selangor <5 <30min N 1 Skirts/Dress Durable_Quality Credit/Debit_Card Offiline_Retail_Store Social_Media Social_Media Employer
+	M 51-60 >10000 Kuala_Lumpur <5 <30min N 1 Clothes/T-Shirt Reasonable_Price Credit/Debit_Card Offiline_Retail_Store Family_Or_Friends Family_Or_Friends Employer 
+	F 26-30 4001-6000 Negeri_Sembilan 6-10 in_1_hour Y 4 Skirts/Dress Good_Design Credit/Debit_Card Offiline_Retail_Store Social_Media Advertisement Employees
+	F 21-25 <2000 Selangor <5 in_1_hour Y 4 Skirts/Dress Reasonable_Price Credit/Debit_Card Offiline_Retail_Store Social_Media Email-Subcription Students
+	F 21-25 4001-6000 Kuala_Lumpur <5 <30min P 4 Inner-Wear Fit_and_Sizing Credit/Debit_Card Offiline_Retail_Store Social_Media Social_Media Employees
+	F 26-30 4001-6000 Kuala_Lumpur 11-15 <30min P 4 Clothes/T-Shirt Durable_Quality Credit/Debit_Card Offiline_Retail_Store Social_Media Email-Subcription Employees
+	F 21-25 2001-4000 Kuala_Lumpur 6-10 <30min P 4 Clothes/T-Shirt Durable_Quality Credit/Debit_Card Offiline_Retail_Store Social_Media Advertisement Employees
+	F 21-25 2001-4000 Selangor 6-10 in_1_hour Y 4 Clothes/T-Shirt Fit_and_Sizing Credit/Debit_Card Both Advertisement Email-Subcription Employees
+	F 26-30 4001-6000 Kuala_Lumpur <5 in_1_hour P 4 Clothes/T-Shirt Durable_Quality Credit/Debit_Card Offiline_Retail_Store Social_Media Advertisement Students
+	F 15-20 <2000 Selangor 11-15 1-2_hour P 5 Clothes/T-Shirt Good_Design E-Wallet Offiline_Retail_Store Social_Media Social_Media Students
+	F 26-30 4001-6000 Kuala_Lumpur 6-10 <30min P 3 Skirts/Dress Durable_Quality Credit/Debit_Card Offiline_Retail_Store Social_Media Social_Media -
+	F 21-25 4001-6000 Kuala_Lumpur <5 in_1_hour N 3 Skirts/Dress Fit_and_Sizing Credit/Debit_Card Offiline_Retail_Store Advertisement Social_Media Students
+ 	;
+run;
+
+proc print data=mydata.uniqlo;
+run;
