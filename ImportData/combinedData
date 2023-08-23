@@ -1,1 +1,12 @@
+libname mydata "/home/u63487255";
+
+data mydata.uniqlo;
+set cyData
+	jkData
+	rpData
+	willData;
+run;
+
+proc print data=mydata.uniqlo;
+run;
 
