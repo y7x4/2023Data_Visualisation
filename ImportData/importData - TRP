@@ -1,7 +1,4 @@
-libname mydata "/home/u63487255";
- 
-# Tan Ru Poh
-data mydata.uniqlo; 
+data rpData; 
 	length 
 	Gender $2
 	Age $6
@@ -63,8 +60,3 @@ data mydata.uniqlo;
 	F 21-25 2001-4000 . >15 >2_hours N 5 Jackets Reasonable_Price Credit/Debit_Card Both All All Employees								
 	;
 run;
-
-proc print data=mydata.uniqlo;
-run;
-
-
