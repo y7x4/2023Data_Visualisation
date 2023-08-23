@@ -1,6 +1,4 @@
-libname mydata "/home/u63501710/Assignment";
-
-data mydata.uniqlo; 
+data jkData; 
 	length 
 	Gender $2
 	Age $6
@@ -52,7 +50,4 @@ data mydata.uniqlo;
 	F 26-30 4001-6000 Kuala_Lumpur 6-10 <30min P 3 Skirts/Dress Durable_Quality Credit/Debit_Card Offiline_Retail_Store Social_Media Social_Media -
 	F 21-25 4001-6000 Kuala_Lumpur <5 in_1_hour N 3 Skirts/Dress Fit_and_Sizing Credit/Debit_Card Offiline_Retail_Store Advertisement Social_Media Students
  	;
-run;
-
-proc print data=mydata.uniqlo;
 run;
