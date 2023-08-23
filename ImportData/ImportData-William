@@ -1,5 +1,6 @@
-libname mydata "/home/u63489350";
-data mydata.uniqlo;
+
+data willData;
+
  length Gender $2 Age $6 Income_RM $11 Location $15 q1 $5 q2 $10 q3 $2 q4 q5 $16 q6 $18 q7 $19 q8 $21 q9 $18 q10 $18 q11 $13;
  input Gender $ Age $ Income_RM $ Location $ q1 $ q2 $ q3 $ q4 q5 $ q6 $ q7 $ q8 $ q9 $ q10 $ q11 $;
  datalines;
