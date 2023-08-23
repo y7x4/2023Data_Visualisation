@@ -1,6 +1,4 @@
-libname mydata "/home/u63489353";
-
-data mydata.uniqlo; 
+data cyData; 
 	length 
 	Gender $2
 	Age $6
@@ -61,7 +59,4 @@ data mydata.uniqlo;
 	F 15-20 2001-4000 Selongor <5 <30_min P 3 Clothes/T-shirt Fit_and_sizing E-Wallet Offline_Retail_Store Social_media Social_media Students
 	F 15-20 <2000 Kuala_Lumpur <5 <30_min P 3 Clothes/T-shirt Durable_quality E-Wallet Offline_Retail_Store Social_media Social_media Students
 	;
-run;
-
-proc print data=mydata.uniqlo;
 run;
